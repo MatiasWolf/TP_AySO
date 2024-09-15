@@ -1,0 +1,167 @@
+ls
+cd..
+hostnamectl --help
+status
+hostnamectl status
+hostnamectl hostname
+localectl --help
+pwd
+ls
+cd repogit
+cd..
+sudo apt tree
+sudo apt install tree
+snap install tree
+sudo swap install tree
+sudo apt install tree
+tree
+sudo apt install tree  # version 2.0.2-1
+sudo apt update
+sudo apt install tree
+cat > archivo.txt
+ls
+cd archivo.txt
+cat archivo.txt
+rm archivo.txt
+ls
+cd.
+cat $HOME/.ssh/*.pub
+cd $HOME
+ls
+cd repogit
+cd
+mkdir repogit
+cd repogit
+git clone git@github.com:MatiasWolf/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep <-i> Home_url /etc/os-release
+man grep
+grep <--ignore-case> Home_url /etc/os-release
+grep -i Home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+cat datos_usuario.txt
+git add .
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git config --global user.email "matiasgw04@gmail.com"
+git config --global user.name "MatiasWolf"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+grep
+tail -n1
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+git status
+git add .
+git status
+cat datos_usuarios.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+rm datos_usuarios.txt
+git add .
+git status
+ls
+cat datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+git push
+ssh-keygen
+cat $HOME/.ssh/id_rsa
+ssh-keygen
+ls
+cd repogit
+ls
+cd $HOME
+ls
+cd carpeta_compartida
+ls
+cd ssh
+cd $HOME/.ssh
+ls
+cd authorized_keys
+cd $HOME
+ssh-keygen
+cat $HOME/.ssh/*.pub
+ls
+cd repogit
+ls
+cd TP_AySO
+ls
+man sort
+grep -v 'nologin' /etc/passwd | head -n10 | sort -k7 > lista_ordenada
+ls
+cat lista_ordenada
+man grep
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+git push
+echo "tcpdump" > comando_dump_net
+echo "tcpdump -i wlan0 -w dump_traffic.pcap" >> comando_dump_net
+git add .
+git status
+git commit -m "ADD: Comando para capturar y analizar el tráfico de red"
+cat <<EOF >> README.md
+Alumno: Matias Wolf
+División: 315
+Turno: Noche
+EOF
+
+cat README.md
+cat <<EOF > README.md
+# TP_AySO
+
+Alumno: Matias Wolf
+División: 315
+Turno: Noche
+EOF
+
+cat README.md
+git add .
+git status
+git commit -m "feat: Añadiendo información de alumno a README.md"
+git push
+history -w ../../.bash_history
+ls
+cd repogit
+ls
+cd TP_AySO
+ls
+man sort
+grep -v 'nologin' /etc/passwd | head -n10 | sort -k7 > lista_ordenada
+ls
+cat lista_ordenada
+man grep
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+git push
+echo "tcpdump" > comando_dump_net
+echo "tcpdump -i wlan0 -w dump_traffic.pcap" >> comando_dump_net
+git add .
+git status
+git commit -m "ADD: Comando para capturar y analizar el tráfico de red"
+cat <<EOF >> README.md
+Alumno: Matias Wolf
+División: 315
+Turno: Noche
+EOF
+
+cat README.md
+cat <<EOF > README.md
+# TP_AySO
+
+Alumno: Matias Wolf
+División: 315
+Turno: Noche
+EOF
+
+cat README.md
+git add .
+git status
+git commit -m "feat: Añadiendo información de alumno a README.md"
+git push
+history -w ../../.bash_history
+history -a ../../.bash_history
