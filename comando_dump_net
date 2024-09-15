@@ -1,0 +1,2 @@
+tcpdump
+tcpdump -i wlan0 -w dump_traffic.pcap
